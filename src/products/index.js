@@ -44,6 +44,8 @@ const Products = ()=>{
 
     return (
         <div className="displayProducts">
+
+{/* <button className="button">Add Product</button>  */}
         
         {products.map(item =>(
             

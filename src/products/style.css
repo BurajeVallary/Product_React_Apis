@@ -15,6 +15,7 @@ font-size: 18px; */
    border-radius: 5px;
    margin-bottom: 20px;
    font-size: 18px; 
+   margin-top: 100px;
 
 }
 
@@ -39,3 +40,12 @@ font-size: 18px; */
    border-color: #bbb;
    color: #222;
  }
+ .button{
+   background-color: #d715ba;
+   border: 1px solid #3c3a3a;
+   width: 8%;
+   height: 20%;
+   
+  
+  
+}

@@ -8,7 +8,7 @@ const Navbar = () => {
       
         <a href="/products">Products</a>
         <a href="/login">Login</a>
-         <button className="button">Add Product</button> 
+   
       </nav>
     )
 }
