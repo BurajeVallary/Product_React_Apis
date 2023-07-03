@@ -1,0 +1,43 @@
+.navbar{
+
+  background-color: #6e508c;
+  border: 1px solid #3c3a3a;
+  padding: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10rem;
+  text-align: center;
+ 
+
+
+
+ 
+}
+.navbar a {
+    /* color: #0a0a0a; */
+    text-decoration: none;
+    color: #ffffff;
+    
+
+   
+  }
+  
+  a:hover::before {
+    color: #000;
+    
+  }
+
+ a:hover::after {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .button{
+    background-color: #d715ba;
+    border: 1px solid #3c3a3a;
+    width: 8%;
+    height: 20%;
+    
+   
+   
+ }

@@ -1,0 +1,12 @@
+.images{
+    width: 30%;
+}
+.prods{
+    margin-left: 50px;
+    border: solid #e2e2e2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px; 
+    padding: 10px 10px;
+    width: 20%;
+}

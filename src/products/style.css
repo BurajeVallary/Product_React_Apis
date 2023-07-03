@@ -1,0 +1,41 @@
+.images{
+ 
+width: 60%;
+/* padding: 10px 16px;
+width: 80;
+border: solid #e2e2e2;
+border-radius: 5px;
+font-size: 18px; */
+    
+}
+.dis{
+   padding: 15px;
+   width: 70%;
+   border: solid #e2e2e2;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   font-size: 18px; 
+
+}
+
+.displayProducts{
+
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.view{
+   background-color: #b01980;
+   border: 1px solid #ccc;
+   padding: 10px;
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   color: #ffffff;
+   border-radius: 5px;
+
+   
+}
+&:hover {
+   background-color: #e6e6e6;
+   border-color: #bbb;
+   color: #222;
+ }
