@@ -28,13 +28,18 @@ const ProductDetailsPage = () => {
       <div className='prods'>
         <img src={product.thumbnail} alt={product.title} className='images'/>
         <h2>{product.title}</h2>
-        <p>{product.brand}</p>
-        <p>{product.price}</p>
-        <h4>{product.rating}</h4>
+        <p className="product-price"> Name: &nbsp; &nbsp; {product.brand}</p>
+        <p className="product-price">Ksh:&nbsp; &nbsp;  {product.price}</p>
+        <p className="product-price">&nbsp; &nbsp;{product.rating} %</p>
       </div>
     </div>
   );
 };
-export default ProductDetailsPage;
+export default ProductDetailsPage;     
+
+//  <p className="product-price">Name: &nbsp; &nbsp;{item.title}</p>
+{/* <p className="product-price"> Ksh:&nbsp; &nbsp;{item.price}</p>
+<p className="product-price">{item.discountPercentage} % </p>
+<Link to={`/product/${item.id}` }className="btn"> */}
 
 

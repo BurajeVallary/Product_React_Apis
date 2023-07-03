@@ -1,7 +1,9 @@
 import React,{useState,useEffect} from "react";
 import './style.css';
 import{
-    
+    createBrowserRouter,
+    RouterProvider,
+    Route,
     Link,
 } from "react-router-dom"
 
@@ -29,8 +31,8 @@ const Products = ()=>{
        }catch (error){
         console.log(error.mesage);
        }
-      
-      
+
+
 
     };
 
@@ -43,20 +45,20 @@ const Products = ()=>{
     return (
         <div className="displayProducts">
 
-{/* <button className="button">Add Product</button>  */}
-        
+         {/* <Link to={`/product/${item.id}`} key={item.id} className="product-link"></Link> */}
         {products.map(item =>(
-            
+
           <div  key={item.id} className="dis">
           <img  alt="" src ={item.images[1]} className="images" />
-          <h3>{item.title}</h3>
-          <h3>{item.price}</h3>
-          <h3>{item.discountPercentage}</h3>
+          <p className="product-price">Name: &nbsp; &nbsp;{item.title}</p>
+          <p className="product-price"> Ksh:&nbsp; &nbsp;{item.price}</p>
+          <p className="product-price">{item.discountPercentage} % </p>
           <Link to={`/product/${item.id}` }className="btn">
             <button type="submit" className="view">View</button >
 
           </Link>
-         
+          {/* <Link to ="/productdetails" className="btn"><button type="submit">View</button ></Link> */}
+
             </div>
         ))}
       </div> 
