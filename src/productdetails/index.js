@@ -31,15 +31,14 @@ const ProductDetailsPage = () => {
         <p className="product-price"> Name: &nbsp; &nbsp; {product.brand}</p>
         <p className="product-price">Ksh:&nbsp; &nbsp;  {product.price}</p>
         <p className="product-price">&nbsp; &nbsp;{product.rating} %</p>
+        
+        <p className="product-price">&nbsp; &nbsp;{product.description}</p>
       </div>
     </div>
   );
 };
 export default ProductDetailsPage;     
 
-//  <p className="product-price">Name: &nbsp; &nbsp;{item.title}</p>
-{/* <p className="product-price"> Ksh:&nbsp; &nbsp;{item.price}</p>
-<p className="product-price">{item.discountPercentage} % </p>
-<Link to={`/product/${item.id}` }className="btn"> */}
+
 
 

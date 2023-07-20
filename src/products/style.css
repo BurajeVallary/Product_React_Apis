@@ -1,17 +1,8 @@
-.images{
- 
-width: 60%;
-/* padding: 10px 16px;
-width: 80;
-border: solid #e2e2e2;
-border-radius: 5px;
-font-size: 18px; */
-    
-}
+
 .dis{
    padding: 15px;
    width: 70%;
-   border: solid #e2e2e2;
+   border: solid #3333;
    border-radius: 5px;
    margin-bottom: 20px;
    font-size: 18px; 
@@ -35,17 +26,5 @@ font-size: 18px; */
 
    
 }
-&:hover {
-   background-color: #e6e6e6;
-   border-color: #bbb;
-   color: #222;
- }
- .button{
-   background-color: #d715ba;
-   border: 1px solid #3c3a3a;
-   width: 8%;
-   height: 20%;
-   
-  
-  
-}
+
+ 

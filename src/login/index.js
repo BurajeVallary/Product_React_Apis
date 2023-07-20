@@ -1,10 +1,12 @@
 import React,{useState} from "react";
 import './style.css';
+import { Link } from "react-router-dom";
+
 const Login = ()=>{
     const [username, setUsername]=useState('');
     const [password, setPassword] = useState('');
     const handleSubmit = async(e) =>{
-         e.preventDefault();
+         e.value.preventDefault();
          const data ={
             username: username,
             password: password
@@ -26,7 +28,7 @@ const Login = ()=>{
     }
     }
     return (
-        <div>
+        <div className="">
             <form className="form" onSubmit={handleSubmit}>
                 <h1>Login</h1>
                 <input placeholder="Enter username" type="text"
@@ -38,7 +40,8 @@ const Login = ()=>{
                 onChange={(p)=>setPassword(p.target.value)}/>
                 <br/>
                 <br/>
-                 <button type="submit">Login</button>
+                <Link to={`/products`}> <button className="button" type="submit">Login</button ></Link>
+                 
             </form>
         </div>
     )

@@ -1,11 +1,11 @@
 import React,{useState,useEffect} from "react";
 import './style.css';
 import{
-    createBrowserRouter,
-    RouterProvider,
-    Route,
+    
     Link,
 } from "react-router-dom"
+
+
 
 
 const Products = ()=>{
@@ -53,6 +53,7 @@ const Products = ()=>{
           <p className="product-price">Name: &nbsp; &nbsp;{item.title}</p>
           <p className="product-price"> Ksh:&nbsp; &nbsp;{item.price}</p>
           <p className="product-price">{item.discountPercentage} % </p>
+         
           <Link to={`/product/${item.id}` }className="btn">
             <button type="submit" className="view">View</button >
 

@@ -9,11 +9,25 @@
     border: solid 1px #e2e2e2;
     border-radius: 5px;
 }
-.form > button {
-    border:  none;
+
+
+.button {
+    border: none;
     outline: none;
-    padding: 10px 12px;
+    padding: 20px;
+    width: 30%;
     background-color: rgb(250, 20, 219);
     border-radius: 5px;
     color: #ffffff;
-}
+    cursor: pointer; 
+  }
+  
+  .button:hover {
+    background-color: #ff00ff; 
+  }
+  
+ 
+  .button:active {
+    background-color: #ff007f; 
+  }
+  
